@@ -1,0 +1,55 @@
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Jupyter Notebook Cache
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Model Files
+# =========================
+*.pth
+*.pt
+*.ckpt
+
+# =========================
+# Generated Images
+# =========================
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# Diffusion Generated Outputs
+# =========================
+Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/epoch50/
+Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/epoch100/
+Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/epoch150/
+Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/epoch200/
+Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/samples/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
