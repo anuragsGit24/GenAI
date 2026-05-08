@@ -53,3 +53,6 @@ Assignments/GENAI FUNDAMENTALS \ Diffusion/ddpm-devanagari/samples/
 # =========================
 .DS_Store
 Thumbs.db
+
+# Ignore all diffusion outputs
+**/ddpm-devanagari/
