@@ -21,6 +21,8 @@ __pycache__/
 *.pth
 *.pt
 *.ckpt
+*.bin
+*.txt
 
 # =========================
 # Generated Images
