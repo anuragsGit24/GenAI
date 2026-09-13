@@ -58,3 +58,5 @@ Thumbs.db
 
 # Ignore all diffusion outputs
 **/ddpm-devanagari/
+
+**/smollm2_customer_support_finetuned

@@ -1,0 +1,26 @@
+{
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "dataset": "bitext/Bitext-customer-support-llm-chatbot-training-dataset",
+    "total_selected_examples": 500,
+    "training_examples": 400,
+    "evaluation_examples": 100,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "max_length": 256,
+    "test_prompt": "I need help cancelling an order. What should I do?",
+    "training_time_minutes": 19.2,
+    "before": {
+        "perplexity": 9.82079219793813,
+        "rouge1": 0.28207745411814744,
+        "rouge2": 0.05992167403679097,
+        "rougeL": 0.17224266107332986,
+        "response": "To cancel an order, you need to follow these steps:\n\n1. Go to your account dashboard.\n2. Look for the \"Orders\" tab.\n3. Find the order you want to cancel.\n4. Click on the \"Cancel\" button next to the order.\n5. Confirm that you want to cancel the order.\n6. You will be asked to confirm the cancellation.\n7. Once you confirm, the order will be cancelled.\n\nRemember"
+    },
+    "after": {
+        "perplexity": 2.7466105711294433,
+        "rouge1": 0.4740110035018411,
+        "rouge2": 0.2006005577468305,
+        "rougeL": 0.30195185257858115,
+        "response": "I'm sorry to hear that you need assistance with cancelling your order. I'm here to help you with that. To cancel your order, you can follow these steps:\n\n1. Log in to your account on our website.\n2. Navigate to the \"Billing\" or \"Order History\" section.\n3. Look for the order you want to cancel and click on it.\n4. Select the option to \"Cancel Order\" or \"Cancel Purchase"
+    }
+}
